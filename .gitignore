@@ -1,0 +1,33 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# IDE and operating-system files
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local recordings and generated audio
+*.wav
+
+# Downloaded model weights
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+secrets.*
+credentials.*
+*.pem
+*.key
+*.p12
+*.pfx
